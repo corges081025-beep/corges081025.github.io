@@ -1,0 +1,97 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: black;
+    font-size: 48px;
+    border: 1px;
+}
+
+body {
+
+    height: 100vh;
+    background: rgb(247, 247, 247);
+    color: rgb(0, 0, 0);
+    text-decoration: center;
+
+
+
+
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+header h1 {
+    text-align: center
+}
+
+img {
+    border-radius: 1px;
+}
+
+img:hover {
+    transform: scale(1.1)
+}
+
+nav {
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 50px;
+}
+
+
+.logga{
+    max-width: 200px;
+}
+
+body {
+    background-color: #f9ebb3;
+}
+
+
+.navbar {
+    background-color: #a67209 !important; 
+}
+
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: #3b3b3b;
+}
+
+
+.navbar .nav-link:hover {
+    color: #000;
+}
+
+
+.navbar .nav-link.active {
+    font-weight: bold;
+}
+.btn-primary {
+  background-color:  #a67209;
+}
+
+.foodmain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.foodmain img{
+    height: 350px;
+    width: 400px; 
+}
